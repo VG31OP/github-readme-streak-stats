@@ -21,11 +21,11 @@ if (!isset($_SERVER["TOKEN"])) {
     renderOutput($message, 500);
 }
 
-// set cache to refresh once per day (24 hours)
+// Keep HTTP/CDN caching aligned with the short server-side cache.
 $cacheSeconds = CACHE_DURATION;
 header("Expires: " . gmdate("D, d M Y H:i:s", time() + $cacheSeconds) . " GMT");
 header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
-header("Cache-Control: public, max-age=$cacheSeconds");
+header("Cache-Control: public, max-age=$cacheSeconds, s-maxage=$cacheSeconds, stale-while-revalidate=30");
 
 // redirect to demo site if user is not given
 if (!isset($_REQUEST["user"])) {

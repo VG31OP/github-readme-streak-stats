@@ -8,8 +8,8 @@ declare(strict_types=1);
  * Caches stats for 24 hours to avoid repeated API calls
  */
 
-// Default cache duration: 24 hours (in seconds)
-define("CACHE_DURATION", 24 * 60 * 60);
+// Default cache duration: 60 seconds (in seconds)
+define("CACHE_DURATION", 60);
 define("CACHE_DIR", __DIR__ . "/../cache");
 
 /**
