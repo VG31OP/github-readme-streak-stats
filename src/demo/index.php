@@ -70,9 +70,9 @@ function camelToSkewer(string $str): string
         <!-- GitHub Sponsors -->
         <a class="github-button" href="https://github.com/sponsors/denvercoder1" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @denvercoder1 on GitHub">Sponsor</a>
         <!-- View on GitHub -->
-        <a class="github-button" href="https://github.com/denvercoder1/github-readme-streak-stats" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="View denvercoder1/github-readme-streak-stats on GitHub">View on GitHub</a>
+        <a class="github-button" href="https://github.com/VG31OP/github-readme-streak-stats" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="View VG31OP/github-readme-streak-stats on GitHub">View on GitHub</a>
         <!-- GitHub Star -->
-        <a class="github-button" href="https://github.com/denvercoder1/github-readme-streak-stats" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star denvercoder1/github-readme-streak-stats on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/VG31OP/github-readme-streak-stats" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star VG31OP/github-readme-streak-stats on GitHub">Star</a>
     </div>
 
     <div class="container">
